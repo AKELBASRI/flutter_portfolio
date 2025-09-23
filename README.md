@@ -100,6 +100,8 @@ flutter doctor
 
 ## 📫 Contact
 
+Email: contact@codevllc.com
+
 Feel free to reach out if you want to discuss any of these projects or have freelance opportunities!
 
 ---
