@@ -108,7 +108,7 @@ class ProductListScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
-                    childAspectRatio: 0.68,
+                    childAspectRatio: 0.7,
                     crossAxisSpacing: 16,
                     mainAxisSpacing: 16,
                   ),
@@ -169,9 +169,9 @@ class ProductListScreen extends StatelessWidget {
 
                             // Product Details
                             Expanded(
-                              flex: 5,
+                              flex: 4,
                               child: Padding(
-                                padding: const EdgeInsets.all(12),
+                                padding: const EdgeInsets.all(10),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
