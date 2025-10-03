@@ -1,0 +1,186 @@
+import 'talent.dart';
+
+class MockData {
+  static List<Talent> getTalents() {
+    return [
+      // Artists
+      Talent(
+        id: '1',
+        name: 'Luna Martinez',
+        category: 'Artist',
+        bio: 'Contemporary visual artist specializing in abstract expressionism and mixed media',
+        avatar: '🎨',
+        location: 'New York, NY',
+        rating: 4.9,
+        reviewCount: 127,
+        genres: ['Abstract', 'Contemporary', 'Mixed Media'],
+        portfolio: ['🖼️', '🎭', '✨'],
+        yearsOfExperience: 8,
+        isVerified: true,
+        priceRange: 500,
+        upcomingShows: ['Art Basel Miami', 'Brooklyn Art Week'],
+      ),
+
+      // DJ
+      Talent(
+        id: '2',
+        name: 'DJ Phoenix',
+        category: 'DJ',
+        bio: 'Electronic music producer and DJ, bringing energy to every dance floor',
+        avatar: '🎧',
+        location: 'Los Angeles, CA',
+        rating: 4.8,
+        reviewCount: 256,
+        genres: ['House', 'Techno', 'EDM'],
+        portfolio: ['🎵', '🎶', '🔊'],
+        yearsOfExperience: 10,
+        isVerified: true,
+        priceRange: 800,
+        upcomingShows: ['Electric Daisy Carnival', 'Coachella'],
+      ),
+
+      // Comedian
+      Talent(
+        id: '3',
+        name: 'Mike Chen',
+        category: 'Comedian',
+        bio: 'Stand-up comedian with sharp wit and observational humor',
+        avatar: '😂',
+        location: 'Chicago, IL',
+        rating: 4.7,
+        reviewCount: 189,
+        genres: ['Observational', 'Satire', 'Improv'],
+        portfolio: ['🎤', '😄', '🎭'],
+        yearsOfExperience: 6,
+        isVerified: true,
+        priceRange: 400,
+        upcomingShows: ['Comedy Club Chicago', 'Laugh Factory'],
+      ),
+
+      // Band
+      Talent(
+        id: '4',
+        name: 'The Midnight Echoes',
+        category: 'Band',
+        bio: 'Indie rock band with a modern twist on classic rock sounds',
+        avatar: '🎸',
+        location: 'Austin, TX',
+        rating: 4.9,
+        reviewCount: 312,
+        genres: ['Indie Rock', 'Alternative', 'Classic Rock'],
+        portfolio: ['🥁', '🎹', '🎺'],
+        yearsOfExperience: 12,
+        isVerified: true,
+        priceRange: 1500,
+        upcomingShows: ['SXSW', 'Austin City Limits'],
+      ),
+
+      // More Artists
+      Talent(
+        id: '5',
+        name: 'Aria Singh',
+        category: 'Artist',
+        bio: 'Digital artist creating immersive installations and NFT collections',
+        avatar: '🎨',
+        location: 'San Francisco, CA',
+        rating: 4.6,
+        reviewCount: 94,
+        genres: ['Digital Art', 'Installation', 'NFT'],
+        portfolio: ['💫', '🌟', '✨'],
+        yearsOfExperience: 5,
+        isVerified: false,
+        priceRange: 350,
+        upcomingShows: ['NFT.NYC', 'Digital Art Fair'],
+      ),
+
+      // More DJs
+      Talent(
+        id: '6',
+        name: 'DJ Skyline',
+        category: 'DJ',
+        bio: 'Hip-hop and R&B specialist, master of the turntables',
+        avatar: '🎧',
+        location: 'Miami, FL',
+        rating: 4.9,
+        reviewCount: 401,
+        genres: ['Hip-Hop', 'R&B', 'Trap'],
+        portfolio: ['🎚️', '🎛️', '📀'],
+        yearsOfExperience: 15,
+        isVerified: true,
+        priceRange: 1200,
+        upcomingShows: ['Rolling Loud', 'Ultra Music Festival'],
+      ),
+
+      // More Comedians
+      Talent(
+        id: '7',
+        name: 'Sarah Williams',
+        category: 'Comedian',
+        bio: 'Rising star in comedy with fresh perspective and relatable stories',
+        avatar: '😂',
+        location: 'Seattle, WA',
+        rating: 4.5,
+        reviewCount: 76,
+        genres: ['Personal Stories', 'Modern Humor', 'Social Commentary'],
+        portfolio: ['🎪', '🎭', '🌟'],
+        yearsOfExperience: 4,
+        isVerified: false,
+        priceRange: 250,
+        upcomingShows: ['Seattle Comedy Club', 'Open Mic Nights'],
+      ),
+
+      // More Bands
+      Talent(
+        id: '8',
+        name: 'Velvet Thunder',
+        category: 'Band',
+        bio: 'Jazz fusion ensemble bringing smooth sounds to any venue',
+        avatar: '🎸',
+        location: 'New Orleans, LA',
+        rating: 4.8,
+        reviewCount: 223,
+        genres: ['Jazz', 'Fusion', 'Blues'],
+        portfolio: ['🎷', '🎺', '🎻'],
+        yearsOfExperience: 9,
+        isVerified: true,
+        priceRange: 1000,
+        upcomingShows: ['Jazz Fest', 'French Quarter Festival'],
+      ),
+
+      // Featured talents
+      Talent(
+        id: '9',
+        name: 'DJ Neon Dreams',
+        category: 'DJ',
+        bio: '80s retrowave and synthwave specialist, creating nostalgic vibes',
+        avatar: '🎧',
+        location: 'Portland, OR',
+        rating: 4.7,
+        reviewCount: 167,
+        genres: ['Synthwave', 'Retrowave', '80s'],
+        portfolio: ['🌆', '🌃', '🎹'],
+        yearsOfExperience: 7,
+        isVerified: true,
+        priceRange: 600,
+        upcomingShows: ['Neon Festival', 'Synthwave Nights'],
+      ),
+
+      Talent(
+        id: '10',
+        name: 'Carlos Rodriguez',
+        category: 'Comedian',
+        bio: 'Bilingual comedian bringing cultural comedy to diverse audiences',
+        avatar: '😂',
+        location: 'Houston, TX',
+        rating: 4.8,
+        reviewCount: 198,
+        genres: ['Cultural', 'Bilingual', 'Family Humor'],
+        portfolio: ['🎪', '🌮', '🎉'],
+        yearsOfExperience: 11,
+        isVerified: true,
+        priceRange: 500,
+        upcomingShows: ['Comedy Central Latino', 'Houston Improv'],
+      ),
+    ];
+  }
+}
